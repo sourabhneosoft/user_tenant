@@ -4,21 +4,21 @@
 
 **Clone repository :** Run command *git clone https://github.com/sourabhneosoft/user_tenant.git*
 
-**Virtual Environment :**  Create virtual environment using command *virtualenv python_test_env*
+**Virtual Environment :**  Create virtual environment using command - *virtualenv python_test_env*
 
-**Activate Environment :** activate the virtual environment *source python_test_env/bin/activate*
+**Activate Environment :** activate the virtual environment - *source python_test_env/bin/activate*
 
-**Go to project directory :** Go to project root using *cd user_tenant*
+**Go to project directory :** Go to project root using - *cd user_tenant*
 
-**Requirements.** install the requirements in virtualenv using *pip install -r requirements.txt*
+**Requirements.** install the requirements in virtualenv using - *pip install -r requirements.txt*
 
-**Make Migrations** *python manage.py makemigrations*
+**Make Migrations** - *python manage.py makemigrations*
 
-**Migrate** *python manage.py migrate*
+**Migrate** - *python manage.py migrate*
 
-**Load Dummy Data** Load dummy data using *python manage.py loaddata fixtures/data.json*
+**Load Dummy Data** Load dummy data using - *python manage.py loaddata fixtures/data.json*
 
-**Run the Server** *python manage.py runserver*
+**Run the Server** - *python manage.py runserver*
 
 **Demo accounts**
 
@@ -43,5 +43,4 @@
     * url - /apis/questions
     * method - GET
     * params - q (optional)
-    * headers - Authorization: Token <Token obtained from above api>
-                api-key: <Api key of tenant>
+    * headers - Authorization: Token *Token obtained from above api*, api-key: *Api key of tenant*
