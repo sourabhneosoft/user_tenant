@@ -2,11 +2,15 @@
 
 **Steps to run the application**
 
+**Clone repository :**Run command git clone https://github.com/sourabhneosoft/user_tenant.git*
+
 **Virtual Environment :**  Create virtual environment using command *virtualenv python_test_env*
 
 **Activate Environment :** activate the virtual environment *source python_test_env/bin/activate*
 
-**Requirements.** install the requirements in virtual env using *pip install -r requirements.txt*
+**Go to project directory :** Go to project root using cd user_tenant*
+
+**Requirements.** install the requirements in virtualenv using *pip install -r requirements.txt*
 
 **Make Migrations** *python manage.py makemigrations*
 
@@ -33,9 +37,11 @@
      * url - <Domain Name>/api-token-auth/
      * method - POST
      * params - username, password
+     * headers - Content-Type: application/json
 
 * get questions
     * url - <Domain Name>/apis/questions
     * method - GET
-    * headers - token, api-key
     * params - q (optional)
+    * headers - Authorization: Token <Token obtained from above api>
+                api-key: <Api key of tenant>
