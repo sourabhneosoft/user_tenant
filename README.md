@@ -13,6 +13,7 @@
 **Migrate** *python manage.py migrate*
 
 **Load Dummy Data** Load dummy data using *python manage.py loaddata fixtures/data.json*
+
 **Run the Server** *python manage.py runserver*
 
 **Demo accounts**
