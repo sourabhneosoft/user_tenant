@@ -1,13 +1,16 @@
 """
     Permission for restframework
 """
+
 from rest_framework.permissions import BasePermission
 
 from app.models import Tenant
 
 
 class IsProvidedApiKey(BasePermission):
-
+    """
+    Permission class for checking api key.
+    """
     def has_permission(self, request, view):
 
         api_key = request.META.get('HTTP_API_KEY')

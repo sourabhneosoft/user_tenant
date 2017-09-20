@@ -23,7 +23,7 @@ class QuesViewSet(viewsets.ReadOnlyModelViewSet):
         query_params = self.request.GET.get('q')
         if query_params:
             queryset = self.request.user.question_set.filter(private=False,
-                                                          title__contains=query_params)
+                        title__contains=query_params)
         else:
             queryset = self.request.user.question_set.filter(private=False)
 

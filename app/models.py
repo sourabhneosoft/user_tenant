@@ -1,3 +1,8 @@
+
+"""
+Models for User Tenant
+"""
+
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
@@ -39,7 +44,6 @@ class Tenant(models.Model):
         return self.name
 
 class ThrottleRequest(models.Model):
-
     """
         Model for Throttle request
     """
@@ -52,3 +56,5 @@ class ThrottleRequest(models.Model):
 
     requested_by = models.ForeignKey(settings.AUTH_USER_MODEL,
                                     related_name='requests')
+
+    

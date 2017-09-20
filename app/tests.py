@@ -1,4 +1,8 @@
 # -*- coding: utf-8 -*-
+"""
+Test Cases
+"""
+
 from __future__ import unicode_literals
 
 from django.test import TestCase
@@ -11,6 +15,9 @@ from app.models import Question, Tenant
 
 
 class TestQuestion(TestCase):
+    """
+    Test Cases for Question api.
+    """
 
     def setUp(self):
         self.client = APIClient()
@@ -30,6 +37,9 @@ class TestQuestion(TestCase):
                                 private=True)
 
     def test_get_questions_without_login(self):
+        """
+        Test Cases 1 get questions without login.
+        """
         response = self.client.get('/apis/questions/')
         self.assertEqual(response.status_code, 401)
 
