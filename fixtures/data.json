@@ -25,7 +25,7 @@
         "pk": 4,
         "fields": {
             "username": "user_4",
-            "password": "pbkdf2_sha256$36000$7jNQ1NsgGlXf$41I4aTSmD2Z4rXLhK9Eufg2kmN/98L0pHUHITaym5PY="
+            "password": "pbkdf2_sha256$36000$cH28tRBhgN5Z$G8si/hqyNWdBZe47yu2yN7KMgUJt27lR5H43ADbyisI="
         }
     },
     {
