@@ -2,7 +2,7 @@
 
 **Steps to run the application**
 
-**Clone repository :**Run command git clone https://github.com/sourabhneosoft/user_tenant.git*
+**Clone repository :** Run command git clone https://github.com/sourabhneosoft/user_tenant.git*
 
 **Virtual Environment :**  Create virtual environment using command *virtualenv python_test_env*
 
