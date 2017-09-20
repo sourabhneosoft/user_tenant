@@ -1,0 +1,379 @@
+[
+
+    { "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "username": "user_1",
+            "password": "pass1"
+        }
+    },
+    { "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "username": "user_2",
+            "password": "pass2"
+        }
+    },
+    { "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "username": "user_3",
+            "password": "pass3"
+        }
+    },
+    { "model": "auth.user",
+        "pk": 5,
+        "fields": {
+            "username": "user_5",
+            "password": "pass5"
+        }
+    },
+    {
+      "model": "app.Question",
+      "pk": 1,
+      "fields": {
+        "title": "What is Python?",
+        "private": 0,
+        "user":1
+      }
+    },
+    {
+      "model": "app.Question",
+      "pk": 2,
+      "fields": {
+        "title": "What is the purpose of PYTHONPATH environment variable??",
+        "private": 1,
+        "user":3
+      }
+    },
+    {
+      "model": "app.Question",
+      "pk": 3,
+      "fields": {
+        "title": "What is the purpose of PYTHONSTARTUP environment variable?",
+        "private": 0,
+        "user":2
+      }
+
+    },
+    {
+      "model": "app.Question",
+      "pk": 4,
+      "fields": {
+        "title": "What is the purpose of PYTHONCASEOK environment variable?",
+        "private": 0,
+        "user":2
+      }
+    },
+      {
+      "model": "app.Question",
+      "pk": 5,
+      "fields": {
+        "title": "What is the purpose of PYTHONHOME environment variable?",
+        "private": 0,
+        "user":4
+      }
+    },
+    {
+      "model": "app.Question",
+      "pk": 6,
+      "fields": {
+        "title": "Is python a case sensitive language?",
+        "private": 1,
+        "user":3
+      }
+    },
+    {
+      "model": "app.Question",
+      "pk": 7,
+      "fields": {
+        "title": "What are the supported data types in Python?",
+        "private": 0,
+        "user":2
+      }
+
+    },
+    {
+      "model": "app.Question",
+      "pk": 8,
+      "fields": {
+        "title": "What is the output of print str if str = 'Hello World!'?",
+        "private": 0,
+        "user":2
+      }
+    },
+      {
+      "model": "app.Question",
+      "pk": 9,
+      "fields": {
+        "title": "What is the output of print str[0] if str = 'Hello World!'?",
+        "private": 0,
+        "user":1
+      }
+    },
+    {
+      "model": "app.Question",
+      "pk": 10,
+      "fields": {
+        "title": "What is the output of print str[2:5] if str = 'Hello World!'?",
+        "private": 1,
+        "user":3
+      }
+    },
+    {
+      "model": "app.Question",
+      "pk": 11,
+      "fields": {
+        "title": "What is the output of print str[2:] if str = 'Hello World!'?",
+        "private": 0,
+        "user":4
+      }
+
+    },
+    {
+      "model": "app.Question",
+      "pk": 12,
+      "fields": {
+        "title": "What is the output of print str * 2 if str = 'Hello World!'?",
+        "private": 0,
+        "user":2
+      }
+    },
+        {
+      "model": "app.Question",
+      "pk": 13,
+      "fields": {
+        "title": "What is the output of print str + 'TEST' if str = 'Hello World!'?",
+        "private": 0,
+        "user":1
+      }
+    },
+    {
+      "model": "app.Question",
+      "pk": 14,
+      "fields": {
+        "title": "What is the output of print list if list = [ 'abcd', 786 , 2.23, 'john', 70.2 ]?",
+        "private": 1,
+        "user":3
+      }
+    },
+    {
+      "model": "app.Question",
+      "pk": 15,
+      "fields": {
+        "title": "What is the output of print list[0] if list = [ 'abcd', 786 , 2.23, 'john', 70.2 ]?",
+        "private": 0,
+        "user":2
+      }
+
+    },
+    {
+      "model": "app.Question",
+      "pk": 16,
+      "fields": {
+        "title": "What is the output of print list[1:3] if list = [ 'abcd', 786 , 2.23, 'john', 70.2 ]?",
+        "private": 0,
+        "user":2
+      }
+    },
+      {
+      "model": "app.Question",
+      "pk": 17,
+      "fields": {
+        "title": "What is the output of print list[2:] if list = [ 'abcd', 786 , 2.23, 'john', 70.2 ]?",
+        "private": 0,
+        "user":2
+      }
+    },
+      {
+      "model": "app.Question",
+      "pk": 18,
+      "fields": {
+        "title": "What is the output of print tinylist * 2 if tinylist = [123, 'john']?",
+        "private": 0,
+        "user":2
+      }
+    },
+      {
+      "model": "app.Answer",
+      "pk": 1,
+      "fields": {
+        "body": "Python is a high-level, interpreted, interactive and object-oriented scripting language. Python is designed to be highly readable.",
+        "question": 1,
+        "user":1
+      }
+    },
+    {
+      "model": "app.Answer",
+      "pk": 2,
+      "fields": {
+        "body": "It supports functional and structured programming methods as well as OOP.",
+        "question": 2,
+        "user":3
+      }
+    },
+    {
+      "model": "app.Answer",
+      "pk": 3,
+      "fields": {
+        "body": "It has a role similar to PATH. ",
+        "question": 3,
+        "user":2
+      }
+
+    },
+    {
+      "model": "app.Answer",
+      "pk": 4,
+      "fields": {
+        "body": " It contains the path of an initialization file containing Python source code. ",
+        "question": 4,
+        "user":2
+      }
+    },
+      {
+      "model": "app.Answer",
+      "pk": 5,
+      "fields": {
+        "body": "It contains the path of an initialization file containing Python source code.",
+        "question": 5,
+        "user":4
+      }
+    },
+    {
+      "model": "app.Answer",
+      "pk": 6,
+      "fields": {
+        "body": "It is used in Windows to instruct Python to find the first case-insensitive match in an import statement.",
+        "question": 6,
+        "user":3
+      }
+    },
+    {
+      "model": "app.Answer",
+      "pk": 7,
+      "fields": {
+        "body": "It is an alternative module search path.",
+        "question": 7,
+        "user":2
+      }
+
+    },
+    {
+      "model": "app.Answer",
+      "pk": 8,
+      "fields": {
+        "body": "Yes! Python is a case sensitive programming language.",
+        "question": 8,
+        "user":2
+      }
+    },
+      {
+      "model": "app.Answer",
+      "pk": 9,
+      "fields": {
+        "body": "Python has five standard data types −Numbers,String,List,Tuple",
+        "question": 9,
+        "user":1
+      }
+    },
+    {
+      "model": "app.Answer",
+      "pk": 10,
+      "fields": {
+        "body": "It will print complete string. Output would be Hello World!.",
+        "question": 10,
+        "user":3
+      }
+    },
+    {
+      "model": "app.Answer",
+      "pk": 11,
+      "fields": {
+        "body": "It will print first character of the string. Output would be H.",
+        "question": 11,
+        "user":4
+      }
+
+    },
+    {
+      "model": "app.Answer",
+      "pk": 12,
+      "fields": {
+        "body": "It will print characters starting from 3rd to 5th. Output would be llo.",
+        "question": 12,
+        "user":2
+      }
+    },
+        {
+      "model": "app.Answer",
+      "pk": 13,
+      "fields": {
+        "body": "It will print characters starting from 3rd character. Output would be llo World!.",
+        "question": 13,
+        "user":1
+      }
+    },
+    {
+      "model": "app.Answer",
+      "pk": 14,
+      "fields": {
+        "body": "It will print string two times. Output would be Hello World!Hello World!.",
+        "question": 14,
+        "user":3
+      }
+    },
+    {
+      "model": "app.Answer",
+      "pk": 15,
+      "fields": {
+        "body": "It will print concatenated string. Output would be Hello World!TEST.",
+        "question": 15,
+        "user":2
+      }
+
+    },
+    {
+      "model": "app.Answer",
+      "pk": 16,
+      "fields": {
+        "body": "It will print concatenated lists. Output would be [ 'abcd', 786 , 2.23, 'john', 70.2 ].",
+        "question": 16,
+        "user":2
+      }
+    },
+      {
+      "model": "app.Answer",
+      "pk": 17,
+      "fields": {
+        "body": "It will print first element of the list. Output would be abcd.",
+        "question": 17,
+        "user":2
+      }
+    },
+      {
+      "model": "app.Answer",
+      "pk": 18,
+      "fields": {
+        "body": "It will print elements starting from 2nd till 3rd. Output would be [786, 2.23].",
+        "question": 18,
+        "user":2
+      }
+    },
+    {
+      "model": "app.Tenant",
+      "pk": 1,
+      "fields": {
+        "name": "Webwerks",
+        "api_key": "3c1a5d88ac914da6a92e860789453779"
+      }
+    },
+    {
+      "model": "app.Tenant",
+      "pk": 2,
+      "fields": {
+        "name": "Neosoft",
+        "api_key": "23cb00a63d7945eba0ff5b846de1b728"
+      }
+    }
+]
