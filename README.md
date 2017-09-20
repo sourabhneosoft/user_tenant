@@ -34,13 +34,13 @@
 **apis**
 
 * get access token
-     * url - <Domain Name>/api-token-auth/
+     * url - /api-token-auth/
      * method - POST
      * params - username, password
      * headers - Content-Type: application/json
 
 * get questions
-    * url - <Domain Name>/apis/questions
+    * url - /apis/questions
     * method - GET
     * params - q (optional)
     * headers - Authorization: Token <Token obtained from above api>
