@@ -2,13 +2,13 @@
 
 **Steps to run the application**
 
-**Clone repository :** Run command git clone https://github.com/sourabhneosoft/user_tenant.git*
+**Clone repository :** Run command *git clone https://github.com/sourabhneosoft/user_tenant.git*
 
 **Virtual Environment :**  Create virtual environment using command *virtualenv python_test_env*
 
 **Activate Environment :** activate the virtual environment *source python_test_env/bin/activate*
 
-**Go to project directory :** Go to project root using cd user_tenant*
+**Go to project directory :** Go to project root using *cd user_tenant*
 
 **Requirements.** install the requirements in virtualenv using *pip install -r requirements.txt*
 
