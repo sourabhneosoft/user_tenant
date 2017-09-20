@@ -35,6 +35,8 @@ class Tenant(models.Model):
     name = models.CharField(max_length=100)
     api_key = models.CharField(max_length=50)
 
+    def __unicode__(self):
+        return self.name
 
 class ThrottleRequest(models.Model):
 

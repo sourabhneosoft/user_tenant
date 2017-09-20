@@ -21,12 +21,11 @@ from app.viewsets import QuesViewSet
 router = routers.DefaultRouter()
 router.register(r'questions', QuesViewSet)
 from rest_framework.authtoken import views
-
-from app.viewsets import QuesViewSet
+from app.views import HomeDashboard
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^apis/', include(router.urls)),
     url(r'^api-token-auth/', views.obtain_auth_token),
-
+    url(r'^$', HomeDashboard.as_view()),
 ]
